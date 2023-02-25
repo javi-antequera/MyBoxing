@@ -1,0 +1,43 @@
+header {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+#imgGym{
+  border: 2px solid rgb(198, 63, 63);
+}
+#servicios{
+  display: block;
+}
+.card{
+  height: 30%;
+}
+.card-body{
+  height: 120%;
+}
+#carouselExampleCaptions h5{
+  color:red;
+}
+.red{
+  color: red;
+  background-color: rgba(255, 255, 255, 0.272);
+}
+
