@@ -34,10 +34,10 @@ header {
   height: 120%;
 }
 #carouselExampleCaptions h5{
-  color:red;
+  color:rgb(255, 255, 255);
 }
 .red{
-  color: red;
-  background-color: rgba(255, 255, 255, 0.272);
+  color: rgb(255, 255, 255);
+  background-color: rgba(224, 14, 14, 0.537);
 }
 
