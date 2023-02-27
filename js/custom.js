@@ -17,3 +17,20 @@ $(document).ready(function() {
     }
   });
 });
+function validarForm(){
+
+  let nombre = document.getElementById("nombre").value; 
+  let mail = document.getElementById("email").value;
+  let textarea = document.getElementById("textarea").value;
+  
+  let prohibidos = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+  
+  if ( !prohibidos.test(mail) ){                                                         
+      alert("Error: La dirección de correo " + correo + " es incorrecta.");
+  }
+  
+  if ((nombre == " ") || (mail == " ") || (textarea == " ")) { 
+      alert("Los campos no pueden quedar vacios");
+  }
+  
+  }
